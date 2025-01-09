@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "overhaulz",
+	"version": "${version}",
+	"name": "Overhaul Z",
+	"description": "This is Overhaul Z! Live your life as a hopeless survivor against an apocalyptic world!",
+	"authors": [
+		"ViniTheKidd"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/overhaulz/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.vinithekidd.overhaulz.OverhaulZ"
+		],
+		"fabric-datagen": [
+			"net.vinithekidd.overhaulz.OverhaulZDataGenerator"
+		],
+		"client": [
+			"net.vinithekidd.overhaulz.OverhaulZClient"
+		]
+	},
+	"mixins": [
+		"overhaulz.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
