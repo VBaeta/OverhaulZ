@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0":"overhaulz:item/aluminum_ingot"
+    "layer0": "overhaulz:item/pliers"
   }
 }

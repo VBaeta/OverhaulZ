@@ -1,7 +1,6 @@
 {
-  "variants": {
-  "": {
+  "model": {
+    "type": "minecraft:model",
     "model": "overhaulz:block/aluminum_block"
-    }
   }
 }

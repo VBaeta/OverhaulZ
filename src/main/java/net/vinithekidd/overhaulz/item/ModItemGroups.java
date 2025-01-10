@@ -17,6 +17,19 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.overhaulz.aluminum_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.ALUMINUM_INGOT);
+                        entries.add(ModItems.EMPTY_CAN);
+                        entries.add(ModItems.BIKE_PARTS);
+                        entries.add(ModItems.STAPLER);
+                        entries.add(ModItems.ALUMINUM_PARTS);
+                        entries.add(ModItems.ALUMINUM_GEAR);
+                        entries.add(ModItems.ALUMINUM_WIRING);
+                        entries.add(ModItems.ALUMINUM_FOIL);
+                        entries.add(ModItems.CAN_OPENER);
+                        entries.add(ModItems.PLIERS);
+                        entries.add(ModItems.RULER);
+                        entries.add(ModItems.TWEEZERS);
+
+
 
                     }).build());
 

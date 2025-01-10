@@ -1,0 +1,3 @@
+// 1.21.4	-999999999-01-01T00:00:00	Overhaul Z/Tags for minecraft:block
+b4b1521ba1a0f0f9075c00d6cfca148b13aba358 data/minecraft/tags/block/mineable/pickaxe.json
+b4b1521ba1a0f0f9075c00d6cfca148b13aba358 data/minecraft/tags/block/needs_stone_tool.json
