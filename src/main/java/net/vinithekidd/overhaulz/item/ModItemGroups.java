@@ -43,6 +43,25 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup CONTAINER_ITEMS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(OverhaulZ.MOD_ID, "container_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.EMPTY_BOX))
+                    .displayName(Text.translatable("itemgroup.overhaulz.container_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.EMPTY_BOX);
+                        entries.add(ModItems.BOX_OF_NAILS);
+
+                    }).build());
+
+    public static final ItemGroup CONSTRUCTION_PARTS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(OverhaulZ.MOD_ID, "construction_parts"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.NAILS))
+                    .displayName(Text.translatable("itemgroup.overhaulz.construction_parts"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.NAILS);
+
+                    }).build());
+
 
 
     public static void registerItemGroups() {

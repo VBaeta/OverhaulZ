@@ -1,16 +1,13 @@
 package net.vinithekidd.overhaulz.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.vinithekidd.overhaulz.OverhaulZ;
-import net.vinithekidd.overhaulz.item.custom.BoxedMaterialsItem;
+import net.vinithekidd.overhaulz.item.custom.ContainerItem;
 
 public class ModItems {
 
@@ -55,6 +52,23 @@ public class ModItems {
 
     public static  final Item TWEEZERS = registerItem("tweezers", new Item(new Item.Settings()
     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OverhaulZ.MOD_ID, "tweezers")))));
+
+
+    public static  final Item NAILS = registerItem("nails", new Item(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OverhaulZ.MOD_ID, "nails")))));
+
+    public static  final Item EMPTY_BOX = registerItem("empty_box", new Item(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OverhaulZ.MOD_ID, "empty_box")))));
+
+
+    public static final Item BOX_OF_NAILS = registerItem("box_of_nails",
+            new ContainerItem(new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OverhaulZ.MOD_ID, "box_of_nails"))),
+                    EMPTY_BOX,
+                    NAILS,
+                    10
+            )
+    );
 
 
 

@@ -1,1 +1,5 @@
 // 1.21.4	-999999999-01-01T00:00:00	Overhaul Z/Tags for minecraft:item
+904259e63268fbfb14a1e91bcae8771fa3285ac3 data/overhaulz/tags/item/aluminum_smeltables.json
+dca33ada2cc179d0da3fe256a84064dfaae45389 data/overhaulz/tags/item/high_level_smeltables.json
+5fee3e94fa5c311de1da787b6a478eda0dc927e1 data/overhaulz/tags/item/low_level_smeltables.json
+e50367faa77035cc581f730e6f40185c477df044 data/overhaulz/tags/item/mid_level_smeltables.json

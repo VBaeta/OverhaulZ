@@ -12,10 +12,14 @@
   "item.overhaulz.pliers": "Pliers",
   "item.overhaulz.ruler": "Ruler",
   "item.overhaulz.tweezers": "Tweezers",
+  "item.overhaulz.empty_box": "Empty Box",
+  "item.overhaulz.nails": "Nails",
 
 
 
-  "itemgroup.overhaulz.aluminum_items": "Aluminum-Based Items",
+  "itemgroup.overhaulz.contruction_parts": "Construction Parts",
+  "itemgroup.overhaulz.container_items": "Material Containers",
+  "itemgroup.overhaulz.aluminum_items": "Aluminum Items",
   "itemgroup.overhaulz.metal_blocks": "Metal Blocks and Structures"
 
 }

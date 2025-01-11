@@ -37,5 +37,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RULER, Models.GENERATED);
         itemModelGenerator.register(ModItems.TWEEZERS, Models.GENERATED);
 
+
+        itemModelGenerator.register(ModItems.EMPTY_BOX, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BOX_OF_NAILS, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.NAILS, Models.GENERATED);
+
     }
 }
