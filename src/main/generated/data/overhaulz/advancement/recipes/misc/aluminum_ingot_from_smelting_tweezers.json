@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aluminum_ingot_from_smelting_tweezers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tweezers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "overhaulz:tweezers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tweezers"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aluminum_ingot_from_smelting_tweezers"
+    ]
+  }
+}

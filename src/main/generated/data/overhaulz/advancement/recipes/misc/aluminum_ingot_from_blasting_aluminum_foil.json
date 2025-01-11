@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminum_foil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "overhaulz:aluminum_foil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aluminum_ingot_from_blasting_aluminum_foil"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aluminum_foil"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aluminum_ingot_from_blasting_aluminum_foil"
+    ]
+  }
+}
