@@ -1,6 +1,7 @@
 package net.vinithekidd.overhaulz.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -40,6 +41,14 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.overhaulz.metal_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ALUMINUM_BLOCK);
+
+                    }).build());
+
+    public static final ItemGroup MACHINES_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(OverhaulZ.MOD_ID, "machines"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(Blocks.BLAST_FURNACE))
+                    .displayName(Text.translatable("itemgroup.overhaulz.machines"))
+                    .entries((displayContext, entries) -> {
 
                     }).build());
 
